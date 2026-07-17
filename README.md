@@ -1,36 +1,190 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚑 MedLens AI – Intelligent Emergency Triage & First Response Assistant
 
-## Getting Started
+MedLens AI is an AI-powered emergency triage assistant designed to help users understand the urgency of their symptoms before seeking medical care. It analyzes user-provided health information using Google Gemini AI and provides risk assessment, possible conditions (non-diagnostic), first-aid guidance, recommended specialists, and suggested next steps.
 
-First, run the development server:
+> **Disclaimer:** MedLens AI is for informational purposes only and is **not** a substitute for professional medical advice, diagnosis, or emergency medical services.
+
+---
+
+## 🌍 Live Demo
+
+https://med-lens-ai-zarin.vercel.app/
+
+---
+
+## 💻 GitHub Repository
+
+https://github.com/AnsariZarin-F275/MedLens-AI
+
+---
+
+# 🎯 Problem Statement
+
+During emergencies, many people struggle to decide whether their symptoms require immediate medical attention or can wait for a routine consultation. Access to healthcare professionals may be delayed due to geographical limitations, overcrowded hospitals, or lack of awareness.
+
+MedLens AI helps bridge this gap by providing AI-powered symptom assessment that estimates urgency, recommends the appropriate healthcare specialist, offers general first-aid guidance, and advises when emergency care may be necessary.
+
+---
+
+# ✨ Features
+
+- AI-powered symptom analysis using Google Gemini
+- Multi-step medical intake form
+- Emergency risk assessment
+- Urgency estimation
+- Suggested possible conditions (non-diagnostic)
+- Recommended medical specialist
+- General first-aid guidance
+- Next-step recommendations
+- PDF report generation
+- Responsive design
+- Secure server-side AI integration
+
+---
+
+# 🤖 AI Workflow
+
+User Input
+
+↓
+
+Medical Intake Form
+
+↓
+
+Next.js API Route
+
+↓
+
+Google Gemini API
+
+↓
+
+Structured JSON Response
+
+↓
+
+Results Dashboard
+
+↓
+
+Downloadable PDF Report
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+- Next.js 16
+- React 19
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+
+### Backend
+
+- Next.js API Routes
+
+### AI
+
+- Google Gemini 2.5 Flash
+- @google/genai SDK
+
+### PDF
+
+- jsPDF
+
+### Deployment
+
+- Vercel
+
+---
+
+# 🔒 Security
+
+- API key stored securely in `.env.local`
+- Gemini accessed only from the backend
+- No API keys exposed to the frontend
+- Environment variables excluded from Git
+
+---
+
+# 📂 Project Structure
+
+```
+app/
+components/
+lib/
+public/
+README.md
+package.json
+```
+
+---
+
+# 🚀 Local Setup
+
+Clone the repository
+
+```bash
+git clone https://github.com/AnsariZarin-F275/MedLens-AI.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env.local` file
+
+```
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+Run the application
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# 📸 Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+(Add screenshots here before final submission.)
 
-## Learn More
+![-Landing Page](image.png)
+![-Analyze Symptoms](image-1.png)
+![-Results Dashboard](image-2.png)
+![PDF Report](image-3.png)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 🚀 Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Multilingual support
+- Voice symptom input
+- Medical image analysis
+- Hospital locator integration
+- Emergency contact integration
+- Offline support
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 👩‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Zarin Fatima Ansari**
+
+LinkedIn:
+https://www.linkedin.com/in/zarin-fatima/
+
+GitHub:
+https://github.com/AnsariZarin-F275
+
+---
+
+## 📄 License
+
+This project was developed for the **Idea2Impact 2026 Online AI Hackathon**.
