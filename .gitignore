@@ -23,6 +23,9 @@
 # misc
 .DS_Store
 *.pem
+MedLensAI_Report_*.pdf
+/uploads/
+/test-images/
 
 # debug
 npm-debug.log*
