@@ -155,10 +155,10 @@ npm run dev
 
 (Add screenshots here before final submission.)
 
-![-Landing Page](image.png)
-![-Analyze Symptoms](image-1.png)
-![-Results Dashboard](image-2.png)
-![PDF Report](image-3.png)
+![-Landing Page](docs/screenshots/landing-page.png)
+![-Analyze Symptoms](docs/screenshots/analyze-page.png)
+![-Results Dashboard](docs/screenshots/results-page.png)
+![PDF Report](docs/screenshots/pdf-report.png)
 
 ---
 
