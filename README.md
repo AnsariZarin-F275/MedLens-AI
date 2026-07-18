@@ -167,6 +167,13 @@ npm run dev
 
 ---
 
+## 🎥 Demo Video
+
+Google Drive:
+https://drive.google.com/file/d/11w5nUwjz33V_A85bKXnMiPGZ9LgLYNkO/view?usp=sharing
+
+---
+
 # 🚀 Future Improvements
 
 - Multilingual support
